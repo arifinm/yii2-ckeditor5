@@ -5,7 +5,7 @@
  * Date: 25.03.18
  * Time: 18:05
  */
-namespace stkevich\ckeditor5;
+namespace arifinm\ckeditor5;
 
 use yii\helpers\Html;
 
@@ -35,5 +35,4 @@ class EditorClassic extends CKEditor5
             print Html::textarea($this->name, $this->value, $this->options);
         }
     }
-
 }

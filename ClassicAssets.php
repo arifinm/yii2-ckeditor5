@@ -5,13 +5,12 @@
  * Date: 25.03.18
  * Time: 18:05
  */
-namespace stkevich\ckeditor5;
+namespace arifinm\ckeditor5;
 
 use yii\web\AssetBundle;
 
 class ClassicAssets extends AssetBundle
 {
-
     public $css = [
     ];
 

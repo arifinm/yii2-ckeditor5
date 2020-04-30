@@ -1,12 +1,12 @@
 {
-    "name": "stkevich/yii2-ckeditor5",
+    "name": "arifinm/yii2-ckeditor5",
     "description": "ckeditor 5 widget for yii2 framework",
     "type": "extension",
     "license": "MIT",
     "authors": [
         {
-            "name": "Stas Kevich",
-            "email": "st.kevich@gmail.com"
+            "name": "arifinm",
+            "email": "m.arifinnn@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -15,7 +15,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"stkevich\\ckeditor5\\": ""
+			"arifinm\\ckeditor5\\": ""
 		}
 	}
 }

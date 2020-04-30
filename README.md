@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require --prefer-dist stkevich/yii2-ckeditor5 "*"
+composer require --prefer-dist arifinm/yii2-ckeditor5 "*"
 ```
 
 or add
 
 ```
-"stkevich/yii2-ckeditor5": "*"
+"arifinm/yii2-ckeditor5": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,7 +28,7 @@ Usage
 Once the extension is installed, simply use it in your code by:
 
 ```php
-use \stkevich\ckeditor5\EditorClassic;
+use \arifinm\ckeditor5\EditorClassic;
 ...
 $form->field($model, 'fieldName')->widget(EditorClassic::className(), []);
 ```
